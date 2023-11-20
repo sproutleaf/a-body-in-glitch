@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'manifont';
+    src: url("./manifont-grotesk.webfont/manifont-grotesk_book.woff") format('woff');
+}
+
+html {
+    font-family: 'manifont';
+}
+
+html,
+body {
+    overflow: hidden;
+    font-size: 4vw;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.words {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.words:hover {
+    cursor: text;
+}
+
+.pics {
+    max-width: 25vw;
+    z-index: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bp {
+    margin-top: 28vh;
+    visibility: hidden;
+}
+
+#fp {
+    margin-top: 33vh;
+    visibility: hidden;
+}
+
+#dp {
+    margin-top: 38vh;
+    visibility: hidden;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-template-areas:
+        "blurry fragmented disembodied";
+}
+
+#blurry {
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+    grid-area: blurry;
+}
+
+#fragmented {
+    text-decoration: line-through;
+    text-decoration-color: white;
+    text-decoration-thickness: 1vh;
+    grid-area: fragmented;
+    pointer-events: none;
+}
+
+#disembodied {
+    padding-top: 1vh;
+    text-shadow: -1.5vh -1.5vh darkgrey;
+    color: grey;
+    grid-area: disembodied;
+    pointer-events: none;
+}
+
+#second {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    max-height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation: fadeIn 3s forwards;
+    opacity: 0;
+}
+
+.fade:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.fade:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.fade:nth-child(3) {
+    animation-delay: 7s;
+}
+
+.fade:nth-child(4) {
+    animation-delay: 10s;
+}
+
+#full {
+    margin-top: 5vh;
+    max-height: 60vh;
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'manifont-grotesk-bold-italic';
+    src: url('manifont-grotesk_bold-italic.eot');
+    src: url('manifont-grotesk_bold-italic.eot?#iefix') format('embedded-opentype'),
+         url('manifont-grotesk_bold-italic.woff') format('woff'),
+         url('manifont-grotesk_bold-italic.ttf') format('truetype'),
+         url('manifont-grotesk_bold-italic.svg#manifont-grotesk-bold-italic') format('svg');
+}
+
+@font-face {
+    font-family: 'manifont-grotesk-book-italic';
+    src: url('manifont-grotesk_book-italic.eot');
+    src: url('manifont-grotesk_book-italic.eot?#iefix') format('embedded-opentype'),
+         url('manifont-grotesk_book-italic.woff') format('woff'),
+         url('manifont-grotesk_book-italic.ttf') format('truetype'),
+         url('manifont-grotesk_book-italic.svg#manifont-grotesk-book-italic') format('svg');
+}
+
+@font-face {
+    font-family: 'manifont-grotesk-bold';
+    src: url('manifont-grotesk_bold.eot');
+    src: url('manifont-grotesk_bold.eot?#iefix') format('embedded-opentype'),
+         url('manifont-grotesk_bold.woff') format('woff'),
+         url('manifont-grotesk_bold.ttf') format('truetype'),
+         url('manifont-grotesk_bold.svg#manifont-grotesk-bold') format('svg');
+}
+
+@font-face {
+    font-family: 'manifont-grotesk-book-dot';
+    src: url('manifont-grotesk_book-dot.eot');
+    src: url('manifont-grotesk_book-dot.eot?#iefix') format('embedded-opentype'),
+         url('manifont-grotesk_book-dot.woff') format('woff'),
+         url('manifont-grotesk_book-dot.ttf') format('truetype'),
+         url('manifont-grotesk_book-dot.svg#manifont-grotesk-book-dot') format('svg');
+}
+
+@font-face {
+    font-family: 'manifont-grotesk-book';
+    src: url('manifont-grotesk_book.eot');
+    src: url('manifont-grotesk_book.eot?#iefix') format('embedded-opentype'),
+         url('manifont-grotesk_book.woff') format('woff'),
+         url('manifont-grotesk_book.ttf') format('truetype'),
+         url('manifont-grotesk_book.svg#manifont-grotesk-book') format('svg');
+}
+

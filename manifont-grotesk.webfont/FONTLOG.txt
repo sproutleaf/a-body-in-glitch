@@ -1,0 +1,61 @@
+
+  FONTLOG: Manifont Grotesk
+
+  --------------------------------------------
+  Manifont Grotesk Bold Italic
+  --------------------------------------------
+
+  This file provides detailed information on the Manifont 
+  Grotesk font software.
+  This information should be distributed along with the 
+  Manifont Grotesk font and any derivative works.
+  
+  Manifont Grotesk Font Information
+  
+  A curveless grotesk font based on Vremena Grotesk by 
+  abstrkt.ru, originally designed for Manifart graphic system.
+  
+  
+  ChangeLog
+  
+  3 Jan 2016 (Christoph Haag)
+- correct family name
+  
+  4 Nov 2015 (Christoph Haag)
+- created fontforge sources as base to work on GNU/Linux
+- added FONTLOG to .sfdir
+- Mastered Font from Fontforge SFDIR to 
+  UFO,OTF,TTF,EOT,WOFF,SVG
+  
+  4 May 2015 (Étienne Ozeray)
+- Initial release
+  
+  If you make modifications be sure to add your name (N), 
+  email (E), web-address (if you have one) (W) and 
+  description (D). This list is in alphabetical order.
+  
+  N: Christoph Haag
+  E: christoph@lafkon.net
+  W: www.lafkon.net
+  D: Transformer
+  
+  N: Étienne Ozeray 
+  W: www.etienneozeray.fr
+
+
+  --------------------------------------------
+  Manifont Grotesk Book Italic
+  --------------------------------------------
+  see above
+  --------------------------------------------
+  Manifont Grotesk Bold
+  --------------------------------------------
+  see above
+  --------------------------------------------
+  Manifont Grotesk Book Dot
+  --------------------------------------------
+  see above
+  --------------------------------------------
+  Manifont Grotesk Book
+  --------------------------------------------
+  see above
