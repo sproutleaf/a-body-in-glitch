@@ -16,6 +16,7 @@ function fragmented() {
 function disembodied() {
     $("#disembodied").css("color", "white");
     $("#disembodied").css("text-shadow", "0 0 0px transparent");
+    document.getElementById("dis").innerHTML = "Disembodied";
     $("#dp").css("visibility", "visible");
     setTimeout(second, 2500);
 }
